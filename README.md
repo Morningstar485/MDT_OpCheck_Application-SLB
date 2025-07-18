@@ -6,4 +6,4 @@ Each tool per phase (prepare or perform) has its own controller as well, which g
 
 The UX is defined in .py files (the naming is self explanatory, the controllers use a *_c.py at the end to differentiate them from normal UX files) which use an algorithmic enable/disable mechanism, which can be easily altered
 
-The file meta data manager has the functions which interprets the user inputs that are passed and generated the reports whenever called.
+The file meta data manager has the functions which interprets the user inputs that are passed and report generator uses the processed information to print the reports whenever called.
